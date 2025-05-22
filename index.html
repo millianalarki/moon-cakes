@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Cake Shop - Apple Valley's favorite bakery. Custom cakes, fresh pastries, and sweet memories daily." />
+  <title>The Cake Shop | Bakery in Apple Valley, CA</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #333; background-color: #fff8f6; line-height: 1.6; }
+    header { background-color: #ff5c8d; padding: 20px; text-align: center; color: white; }
+    header h1 { margin: 0; font-size: 3rem; }
+    nav { background: #e94e77; padding: 12px; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; font-size: 1.1rem; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 50px 25px; max-width: 1100px; margin: auto; }
+    .hero { background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('bakery-hero.jpg') no-repeat center center/cover; color: white; padding: 100px 20px; text-align: center; }
+    .hero h2 { font-size: 3.5rem; margin-bottom: 10px; }
+    .cta { background: #ffe4ec; padding: 25px; text-align: center; border-radius: 10px; margin-top: 30px; }
+    footer { background: #ff5c8d; text-align: center; padding: 25px; font-size: 0.95rem; color: white; }
+    .contact-info, .why-choose-us, .contact-form, .google-map { font-size: 1.1rem; background: #fff0f5; padding: 20px; border-radius: 10px; margin-top: 30px; }
+    .menu-list, .about-text, .reviews, .gallery-grid, .blog-posts { margin-top: 30px; }
+    .review-item { margin-bottom: 20px; font-style: italic; padding-left: 15px; border-left: 3px solid #e94e77; }
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; }
+    .gallery-grid img { width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    .blog-posts article { margin-bottom: 25px; padding: 20px; background: #fff0f5; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+    .blog-posts h3 { margin-top: 0; color: #c71585; }
+    ul { list-style: square inside; }
+    .social-icons img { width: 24px; height: 24px; margin: 0 5px; vertical-align: middle; }
+    input, textarea { width: 100%; padding: 12px; margin: 8px 0; box-sizing: border-box; border: 2px solid #ccc; border-radius: 4px; }
+    button { background-color: #e94e77; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 1rem; }
+    button:hover { background-color: #d43f67; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Cake Shop</h1>
+    <p>18429 CA-18, Apple Valley, CA 92307 | (760) 946-5500</p>
+  </header>
+
+  <nav>
+    <a href="#contact">Contact</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#custom-orders">Custom Orders</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Deliciously Crafted Moments</h2>
+    <p>Handcrafted treats made with love in Apple Valley</p>
+  </section>
+
+  <section class="cta">
+    <p>Craving something sweet or planning a celebration? Call us: <strong>(760) 946-5500</strong></p>
+  </section>
+
+  <section id="about" class="about-text">
+    <h2>About Us</h2>
+    <p>Welcome to The Cake Shop, your go-to bakery in Apple Valley where every dessert is a celebration. From morning pastries to custom cakes, we pride ourselves on making everything from scratch using only the finest ingredients. Visit us and discover your new favorite indulgence!</p>
+  </section>
+
+  <section id="menu" class="menu-list">
+    <h2>Our Menu</h2>
+    <ul>
+      <li>Signature Cupcakes – Classic and seasonal flavors</li>
+      <li>Gourmet Cookies – From chocolate chunk to festive shapes</li>
+      <li>Brownies, Bars & More – Decadent and rich</li>
+      <li>Daily Baked Artisan Breads</li>
+      <li>Custom Celebration Cakes – Weddings, birthdays, and everything in between</li>
+    </ul>
+  </section>
+
+  <section id="custom-orders">
+    <h2>Custom Orders</h2>
+    <p>Celebrating a special event? Let us create a show-stopping dessert centerpiece for your party. Our team of decorators will bring your vision to life, making your moments even more memorable with cakes and treats tailored just for you.</p>
+  </section>
+
+  <section id="gallery" class="gallery-grid">
+    <h2>Gallery</h2>
+    <img src="d1.jpg" alt="Custom Birthday Cake" />
+    <img src="d2.jpg" alt="Assorted Cupcakes" />
+    <img src="d3.jpg" alt="Decorated Cookies" />
+    <img src="d4.jpg" alt="Dessert Table" />
+  </section>
+
+  <section class="blog-posts">
+    <h2>From the Oven</h2>
+    <article>
+      <h3>Now Open in Apple Valley!</h3>
+      <p>We’re proud to bring our beloved baked creations to the Apple Valley community. Thank you for the warm welcome!</p>
+    </article>
+    <article>
+      <h3>Introducing Gluten-Free Favorites</h3>
+      <p>By popular demand, we now offer a delicious range of gluten-free goodies. Come try our new vanilla almond cupcake today!</p>
+    </article>
+  </section>
+
+  <section id="reviews" class="reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="review-item">"Everything from cookies to cakes is phenomenal! The best bakery in the High Desert." – Jamie L.</div>
+    <div class="review-item">"Our custom wedding cake was stunning and delicious. Huge thanks to The Cake Shop team!" – Mark & Sarah</div>
+  </section>
+
+  <section class="why-choose-us">
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li>✔ Family-owned and community-focused</li>
+      <li>✔ Baked fresh daily using premium ingredients</li>
+      <li>✔ Tailored treats for any celebration</li>
+      <li>✔ Friendly, attentive service</li>
+      <li>✔ Options for gluten-free, vegan, and allergy-conscious needs</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact-form">
+    <h2>Send Us a Message</h2>
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section class="google-map">
+    <h2>Find Us Here</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.6535982729737!2d-117.2043874!3d34.5362185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c4c55ea6e012dd%3A0x9e715cf12f6f3134!2s18429%20CA-18%2C%20Apple%20Valley%2C%20CA%2092307!5e0!3m2!1sen!2sus!4v1716401234567!5m2!1sen!2sus"
+      width="100%" height="450" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Cake Shop | All Rights Reserved</p>
+    <p>Follow us:
+      <span class="social-icons">
+        <a href="https://www.instagram.com/thecakeshopav" target="_blank" rel="noopener"><img src="instagram-icon.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/thecakeshopav" target="_blank" rel="noopener"><img src="facebook-icon.png" alt="Facebook"></a>
+      </span>
+    </p>
+    <p><a href="privacy.html">Privacy Policy</a> | <a href="return.html">Return Policy</a></p>
+  </footer>
+</body>
+</html>
